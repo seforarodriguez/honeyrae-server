@@ -36,4 +36,4 @@ class EmployeeSerializer(serializers.ModelSerializer):
     """JSON serializer for Employees"""
     class Meta:
         model = Employee
-        fields = ('id', 'user', 'address')
+        fields = ('id', 'full_name', 'specialty')
